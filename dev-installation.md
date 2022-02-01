@@ -10,12 +10,19 @@ In this case (during installation), Node is 16.13.2 and NPM is 8.1.2
 npm i create-react-app
 ```
 
-After the installation you might see **3 high severity vulnerabilities**. It can be fixed by updating to latest version of NPM. The specific version will be suggested in the console.
-'''
-npm install -g npm@8.4.0
-'''
+## 3. Create React App
+```
+npx create-react-app client
+```
+App folder is usually named *client*. But it can have any name.
+Installation might take a while so drink your coffee.
 
-Or you can run
-'''
-npm audit fix --force
-'''
+## 4. Test Run your template React Project
+```
+cd client
+npm start
+```
+After a few minutes, you will see in the console a link to your development server. Your browser might also be automatically directed to the development server. 
+If you did not do any changes to the configuration, the dev server will be in `localhost:3000`.
+
+## 5. Start developing!
